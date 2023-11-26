@@ -572,8 +572,16 @@ video {
   margin-left: 4rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .mr-20 {
   margin-right: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-16 {
@@ -584,68 +592,44 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
   display: flex;
 }
 
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-\[510px\] {
-  height: 510px;
-}
-
-.h-full {
-  height: 100%;
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-16 {
   height: 4rem;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-\[500px\] {
   height: 500px;
 }
 
-.w-14 {
-  width: 3.5rem;
+.h-full {
+  height: 100%;
 }
 
-.w-\[1100px\] {
-  width: 1100px;
-}
-
-.w-\[1300px\] {
-  width: 1300px;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-16 {
   width: 4rem;
 }
 
-.w-20 {
-  width: 5rem;
+.w-\[1300px\] {
+  width: 1300px;
 }
 
-.w-\[1200px\] {
-  width: 1200px;
+.w-\[550px\] {
+  width: 550px;
 }
 
 .flex-row {
@@ -658,6 +642,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .rounded-2xl {
@@ -678,14 +666,27 @@ video {
   background-color: rgb(133 149 148 / var(--tw-bg-opacity));
 }
 
+.bg-custom-blue-lighter {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 242 246 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.fill-custom-blue {
+  fill: #859594;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .font-sans {
@@ -697,14 +698,13 @@ video {
   line-height: 2.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-normal {
@@ -715,16 +715,12 @@ video {
   font-weight: 600;
 }
 
-.font-medium {
-  font-weight: 500;
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.leading-normal {
-  line-height: 1.5;
 }
 
 .text-custom-blue-darker {
